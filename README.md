@@ -4,7 +4,7 @@ Aplicação web para cadastrar, listar, editar e excluir clientes, desenvolvida 
 
 ---
 
-##📷 Preview
+## 📷 Preview
 
 ![Preview](assets/preview.png)
 
