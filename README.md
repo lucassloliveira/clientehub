@@ -47,7 +47,7 @@ clientehub/
 
 1. Clone o repositório:
 ```bash
-git clone https://github.com/https://github.com/lucassloliveira/clientehub.git/clientehub.git
+git clone https://github.com/lucassloliveira/clientehub.git
 ```
 
 2. Acesse [crudcrud.com](https://crudcrud.com) e copie o seu endpoint único.
