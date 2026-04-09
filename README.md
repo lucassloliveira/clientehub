@@ -35,9 +35,14 @@ Aplicação web para cadastrar, listar, editar e excluir clientes, desenvolvida 
 
 ```
 clientehub/
-├── index.html    # Interface da aplicação
-├── scripts.js    # Lógica JavaScript e consumo da API
-├── styles.css    # Estilização
+├── index.html
+├── styles.css
+├── assets/
+│   └── preview.png
+├── js/
+│   ├── app.js
+│   ├── classes.js
+│   └── utils.js
 └── README.md
 ```
 
@@ -52,7 +57,7 @@ git clone https://github.com/lucassloliveira/clientehub.git
 
 2. Acesse [crudcrud.com](https://crudcrud.com) e copie o seu endpoint único.
 
-3. No arquivo `scripts.js`, substitua o token na primeira linha:
+3. No arquivo `js/app.js`, substitua o token na primeira linha:
 ```js
 const API_URL = "https://crudcrud.com/api/SEU_TOKEN_AQUI/clientes";
 ```
@@ -83,6 +88,16 @@ const API_URL = "https://crudcrud.com/api/SEU_TOKEN_AQUI/clientes";
 - Manipulação dinâmica do DOM
 - Uso de atributos `data-*` para associar dados a elementos HTML
 - Depuração com DevTools (Console e aba Network)
+
+---
+
+## 💡 Aprendizados (versão refatorada)
+- Modularização com ES Modules (import/export)
+- Programação Orientada a Objetos (classes, encapsulamento com #campos privados)
+- Factory Method estático para tradução de dados da API
+- Programação funcional com map(), forEach() e reduce()
+- Separação de responsabilidades em modules (classes.js, utils.js, app.js)
+- Validação de e-mail com expressão regular (regex)
 
 ---
 
